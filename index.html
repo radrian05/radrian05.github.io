@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>HTML TESTING</title>
+    <head id="ini">
+        <title>Portafolio - Adrian Rojas</title>
         <meta charset="utf-8">
         <link href="index.css" rel="stylesheet"/>
         
@@ -9,21 +9,20 @@
 
     <body>
         <header>
-            <h1>Titulo TBA</h1>
+            <h1>Portafolio</h1>
                 <nav>
                     <ul id="navbutton">
-                        <li><a href="#exp">Exp. Academica</a></li>
-                        <li><a href="#parrafo">Botón2</a></li>
-                        <li><a href="#parrafo">Botón3</a></li>
-                        <li><a href="#parrafo">Botón4</a></li>
+                        <li><a href="#ini">Inicio</a></li>
+                        <li><a href="#pfpcard">Perfíl</a></li>
+                        <li><a href="#exp">Experiencia Académica</a></li>
+                        <li><a href="#prolang">Lenguajes</a></li>
                     </ul>
                 </nav>
-                <br>
                 <br>
         </header>
 
         <main>
-            <div class="container">
+            <div id="pfpcard" class="container">
                 <div class="image">
                     <img width="120" height="120" src="creature.png">
                 </div>
@@ -33,8 +32,6 @@
                   <p>Universidad Politecnica Territorial "Alonso Gamero"</p>
                 </div>
             </div>  
-
-            <br>
 
             <section id="exp">
                 <h2>Experiencia Academica</h2>
@@ -53,37 +50,34 @@
                     </li>
                 </ul>
             </section>
-            <br>
 
             <section id="prolang">
-                <h2>Experencia en Lenguajes de Programación</h2>
+                <h2>Experiencia en Lenguajes de Programación</h2>
                 <table>
-                    <thead>PLACEHOLDER PARA TABLA</thead>
-                    <tbody>
-                        <tr>
-                            <td>Uno</td>
-                            <td>Dos</td>
-                            <td>Tres</td>
-                        </tr>
-                        <tr>
-                            <td>Uno</td>
-                            <td>Dos</td>
-                            <td>Tres</td>
-                        </tr>
-                    </tbody>
-                </table>
+                    <tr>
+                      <th>Lenguaje</th>
+                      <th>Nivel de habilidad</th>
+                    </tr>
+                    <tr>
+                     <td>Python</td>
+                     <td>Principiante</td>
+                    </tr>
+                    <tr>
+                      <td>C++</td>
+                      <td>Principiante</td>
+                    </tr>
+                    <tr>
+                        <td>HTML</td>
+                        <td>Principiante</td>
+                    </tr>
+                  </table>
 
             </section>
-           
-
-
-            <p id="parrafo">parrafo de ejemplo link</p>
 
         </main>
 
         <footer>
-            <p>Hecho en el año <time datetime="2024-05-20">2024</time></p>
+            <p><time datetime="2024-05-21">2024</time></p>
         </footer>
-
     </body>
 </html>

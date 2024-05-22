@@ -52,6 +52,30 @@ nav{
     line-height: 1.5;
   }
 
+  table{
+    text-align: left;
+    position: relative;
+    border-collapse: collapse; 
+    background-color: #f6f6f6;
+  }
+  td{
+    border: 1px solid #999;
+    padding: 20px;
+  }
+  th {
+    background: rgb(114, 114, 114);
+    color: white;
+    border-radius: 0;
+    position: sticky;
+    top: 0;
+    padding: 10px;
+  }
+
+  tfoot > tr  {
+    background: black;
+    color: white;
+  }
+  
   footer{
     font-family: "Roboto", sans-serif;
     font-weight: 900;
