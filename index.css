@@ -58,22 +58,16 @@ nav{
     border-collapse: collapse; 
     background-color: #f6f6f6;
   }
+
   td{
     border: 1px solid #999;
-    padding: 20px;
-  }
-  th {
-    background: rgb(114, 114, 114);
-    color: white;
-    border-radius: 0;
-    position: sticky;
-    top: 0;
     padding: 10px;
   }
 
-  tfoot > tr  {
-    background: black;
+  th {
+    background: rgb(114, 114, 114);
     color: white;
+    padding: 10px;
   }
   
   footer{
